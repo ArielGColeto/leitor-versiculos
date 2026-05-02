@@ -1,0 +1,123 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+}
+
+/* TITULO */
+.title {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #6b7280;
+}
+
+/* CARD */
+.card {
+    -fx-background-color: white;
+    -fx-padding: 30;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 15, 0, 0, 6);
+}
+
+/* RESULT */
+.result-card {
+    -fx-background-color: white;
+    -fx-padding: 20;
+    -fx-background-radius: 16;
+}
+
+/* INPUT */
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 12;
+    -fx-padding: 14;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #d97706;
+}
+
+/* BOTÃO */
+.btn-primary {
+    -fx-background-color: #d97706;
+    -fx-text-fill: white;
+    -fx-background-radius: 12;
+    -fx-padding: 14;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #b45309;
+}
+
+.btn-secondary {
+    -fx-background-color: #111827;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+}
+
+/* PILLS */
+.pill {
+    -fx-background-color: transparent;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 20;
+    -fx-padding: 6 14;
+}
+
+.pill:selected {
+    -fx-background-color: #d97706;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+}
+
+.autocomplete {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-border-color: #e5e7eb;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+}
+
+/* 🔥 cada item */
+.list-cell {
+    -fx-background-color: white;
+    -fx-padding: 10;
+}
+
+/* hover */
+.list-cell:hover {
+    -fx-background-color: #f3f4f6;
+}
+
+/* selecionado */
+.list-cell:selected {
+    -fx-background-color: #e5e7eb;
+}
+
+.list-view {
+    -fx-background-color: white;
+}
+
+/* 🔥 AUTOCOMPLETE (ContextMenu) */
+.context-menu {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #e5e7eb;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 15, 0, 0, 6);
+}
+
+.menu-item {
+    -fx-padding: 10;
+}
+
+.menu-item:hover {
+    -fx-background-color: #f3f4f6;
+}
+
+/* REFERÊNCIA */
+.ref {
+    -fx-font-weight: bold;
+}
